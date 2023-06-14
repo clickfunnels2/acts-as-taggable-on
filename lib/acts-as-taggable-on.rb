@@ -14,6 +14,7 @@ require 'digest/sha1'
 module ActsAsTaggableOn
   extend ActiveSupport::Autoload
 
+  autoload :TaggableRecord
   autoload :Tag
   autoload :TagList
   autoload :GenericParser
