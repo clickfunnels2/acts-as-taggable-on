@@ -123,7 +123,7 @@ WARNING
 
     def base_class=(base_class)
       raise "base_class must be a String" unless base_class.is_a?(String)
-      @base_class = base_class
+      @base_class = 'TaggableRecord' 
     end
 
   end
